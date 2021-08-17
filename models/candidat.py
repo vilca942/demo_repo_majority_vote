@@ -17,7 +17,7 @@ class Candidat:
         if self.major_mention_index is not None and self.major_mention_votes is not None:
             mention: str = Votes.MENTIONS[self.major_mention_index]
             return self.name + ", mention " + mention + ", avec " + str(self.major_mention_votes)\
-                   + " votes pour au moins cette mention"
+                   + " votes pour au moins cette mention."
         return self.name + " : " + str(self.votes)
 
     def add_vote(self, vote: list):

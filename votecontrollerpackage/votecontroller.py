@@ -4,12 +4,12 @@ from models.votes import Votes
 
 class VoteController:
     CANDIDATES = {
-        "hermione": "Hermione Granger",
-        "balou": "Balou",
-        "chuck-norris": "Chuck Norris",
-        "elsa": "Elsa",
-        "gandalf": "Gandalf",
-        "beyonce": "Beyoncé"
+        "candidat1": "Candidat 1",
+        "candidat2": "Candidat 2",
+        "candidat3": "Candidat 3",
+        "candidat4": "Candidat 4",
+        "candidat5": "Candidat 5",
+        "candidat6": "Candidat 6"
     }
 
     VOTER_NUMBER = 100000
@@ -37,7 +37,7 @@ class VoteController:
             if candidat.is_winner(winner):
                 winner = candidat
         print()
-        print("le gagnant est " + str(winner))
+        print("Le gagnant est " + str(winner))
 
 
 

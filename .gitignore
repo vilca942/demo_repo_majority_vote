@@ -1,4 +1,5 @@
 env/
 models/__pycache__
 votecontrollerpackage/__pycache__
-.idea
+.idea/
+venv/
